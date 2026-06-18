@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索筛选-高清电影片库</title>
+  <meta name="description" content="搜索高清欧美影片、高清电影片库、地区、年份、类型与标签。">
+  <meta name="keywords" content="搜索筛选,高清欧美影片,高清电影片库,高清影片在线观看,欧美影片,高清电影,影片片库">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header" data-site-header>
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="高清电影片库">
+      <span class="brand-icon" aria-hidden="true">✦</span>
+      <span class="brand-text">高清电影片库</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类总览</a>
+      <a href="ranking.html">排行榜</a>
+      <a href="search.html">搜索筛选</a>
+      <a href="starlight-picks.html">星光精选</a>
+    </nav>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="打开导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" data-mobile-nav aria-label="移动端导航">
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类总览</a>
+    <a href="ranking.html">排行榜</a>
+    <a href="search.html">搜索筛选</a>
+    <a href="starlight-picks.html">星光精选</a> <a href="cinema-hotlist.html">银幕热榜</a> <a href="premium-library.html">高分片库</a> <a href="midnight-theater.html">午夜剧场</a>
+  </nav>
+</header>
+
+<main class="subpage-main">
+  <section class="subpage-hero compact-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="index.html">首页</a><span>/</span>搜索筛选</nav>
+      <p class="eyebrow">Search</p>
+      <h1>搜索与筛选</h1>
+      <p>按影片标题、地区、类型、年份、标签关键词快速定位片库内容。</p>
+    </div>
+  </section>
+  <section class="page-section">
+    <div class="container">
+      <div class="filter-panel search-panel">
+        <label>
+          <span>关键词</span>
+          <input type="search" placeholder="输入片名、地区、类型或标签" data-search-input>
+        </label>
+        <label>
+          <span>地区</span>
+          <select data-search-region><option value="">全部地区</option></select>
+        </label>
+        <label>
+          <span>类型</span>
+          <select data-search-type><option value="">全部类型</option></select>
+        </label>
+        <label>
+          <span>年份</span>
+          <select data-search-year><option value="">全部年份</option></select>
+        </label>
+        <div class="filter-count"><strong data-search-count>0</strong> 部</div>
+      </div>
+      <div class="movie-grid six-cols" data-search-results></div>
+      <div class="load-more-wrap">
+        <button class="btn-secondary" type="button" data-load-more>加载更多</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <section>
+      <div class="footer-logo"><span>✦</span>高清电影片库</div>
+      <p>汇总高清欧美影片栏目内容，覆盖多类型电影与精选片单，方便分类查看。</p>
+    </section>
+    <section>
+      <h2>影片分类</h2>
+      <ul>
+          <li><a href="starlight-picks.html">星光精选</a></li>
+          <li><a href="cinema-hotlist.html">银幕热榜</a></li>
+          <li><a href="premium-library.html">高分片库</a></li>
+          <li><a href="midnight-theater.html">午夜剧场</a></li>
+          <li><a href="weekend-watch.html">周末片单</a></li>
+          <li><a href="new-era-films.html">年度新片</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>站内入口</h2>
+      <ul>
+        <li><a href="categories.html">分类总览</a></li>
+        <li><a href="ranking.html">排行榜</a></li>
+        <li><a href="search.html">搜索筛选</a></li>
+        <li><a href="service.html">观看说明</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>片库信息</h2>
+      <p>覆盖欧美影片、高清电影、剧集、动画、悬疑、爱情、动作等多类型内容。</p>
+    </section>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 高清电影片库</span>
+    <span>为影视爱好者整理的高清影片片库</span>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/search.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
